@@ -16,13 +16,13 @@ AM_INIT_AUTOMAKE(dist-xz no-dist-gzip)
 # Interfaces added:              CURRENT++  REVISION=0  AGE++
 # Interfaces changed/removed:    CURRENT++  REVISION=0  AGE=0
 LT_CURRENT=3
-LT_REVISION=1
+LT_REVISION=2
 LT_AGE=3
 AC_SUBST(LT_CURRENT)
 AC_SUBST(LT_REVISION)
 AC_SUBST(LT_AGE)
 
-DOXYGEN_REQ_VER=1.9.1
+DOXYGEN_REQ_VER=1.15.0
 
 dnl Checks for programs.
 AC_PROG_CC
